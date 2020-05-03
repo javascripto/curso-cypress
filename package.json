@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "open-cypress": "node_modules/.bincypress open"
+    "open": "cypress open"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.6.0"
+  }
 }
