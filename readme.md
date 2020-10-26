@@ -68,3 +68,7 @@ it('Should visit a page, assert title and interact to button', () => {
   cy.contains('Clique Me!').click().should('have.value', 'Obrigado!');
 });
 ```
+
+
+- npm script para rodar teste unico gravando video
+`"e2e": "cypress run --config-file=./cypress.json --spec=./cypress/integration/boletoSimples.spec.js -- --record"`
